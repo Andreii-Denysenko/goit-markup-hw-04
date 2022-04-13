@@ -95,11 +95,35 @@ ul {
   display: flex;
   padding-left: 0px;
   margin-left: auto;
+  align-items: center;
 }
 
 .list-contacts-top .contacts-item + .contacts-item {
   margin-left: 50px;
 }
+/* иконка */
+.icon-envelope {
+  fill: var(--secondary-text-color);
+  margin-right: 10px;
+}
+.icon-envelope:hover,
+.icon-envelope:focus {
+  fill: var(--accent-color);
+}
+.contacts-item {
+  display: flex;
+  align-items: center;
+}
+
+.icon-smartphone {
+  fill: var(--secondary-text-color);
+  margin-right: 10px;
+}
+.icon-smartphone:hover,
+.icon-smartphone:focus {
+  fill: var(--accent-color);
+}
+
 /* -------------------------------------- -------навигация Шапки */
 
 .link-header {
@@ -237,6 +261,14 @@ ul {
 .benefits-title {
   margin-bottom: 10px;
 }
+.section-benefits-icon {
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
 
 /*---------------------------------------------- Чем мы занимаемся */
 .aboutus {
@@ -318,10 +350,21 @@ ul {
 .text-after-name {
   line-height: 1.19;
   font-size: 16px;
+  margin-bottom: 16px;
 }
 .secondary-container-team {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.social-network {
+  display: flex;
+}
+.section-network {
+  margin-left: 10px;
+}
+.list-network {
+  list-style: none;
+  display: flex;
 }
 
 /*--------------------------------------------Заголовки */

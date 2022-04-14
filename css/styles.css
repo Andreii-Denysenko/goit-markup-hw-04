@@ -367,8 +367,6 @@ ul {
   display: flex;
   fill: var(--color-secondary-icon);
 }
-.icon-instagram {
-}
 
 .item-icon {
   display: flex;
@@ -376,6 +374,12 @@ ul {
   height: 44px;
   align-items: center;
   justify-content: center;
+  text-align: center;
+}
+
+.item-icon .link-network {
+  width: 20px;
+  height: 20px;
 }
 .item-icon:hover,
 .item-icon:focus {
@@ -383,6 +387,7 @@ ul {
   fill: var(--main-light-color-text);
   border-radius: 50%;
 }
+
 /*------------------------Наши клиенты-------------------- */
 .section-clients {
   line-height: 1.18;
@@ -511,6 +516,10 @@ ul {
 }
 .section-social {
   margin-left: 70px;
+}
+.item-social .link-social {
+  width: 20px;
+  height: 20px;
 }
 
 /*----------------------------------------------------Адресс */

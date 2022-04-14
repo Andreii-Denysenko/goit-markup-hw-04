@@ -367,6 +367,9 @@ ul {
   display: flex;
   fill: var(--color-secondary-icon);
 }
+.list-network .item-icon:not(:last-child) {
+  margin-right: 10px;
+}
 
 .item-icon {
   display: flex;

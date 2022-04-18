@@ -379,12 +379,13 @@ ul {
   justify-content: center;
   text-align: center;
 }
-.item-icon:hover,
-.item-icon:focus {
+.link-network:hover,
+.link-network:focus {
   background-color: var(--accent-color);
   fill: var(--main-light-color-text);
   border-radius: 50%;
 }
+
 
 /*------------------------Наши клиенты-------------------- */
 .section-clients {
